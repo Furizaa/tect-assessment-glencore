@@ -1,5 +1,9 @@
 # Glencore Tech Assessment
 
+View solution online in a serverless function: [https://glencore-assessment-c7mif9gc3.now.sh/](https://glencore-assessment-c7mif9gc3.now.sh/)
+
+Find the code here: https://github.com/Furizaa/tect-assessment-glencore
+
 ### Notes about the solution:
 
 - `Reducers` and `Actions` have full type coverage.
@@ -15,3 +19,5 @@ The following points are corners I had to cut due to time constraints:
 - There is no user input normalization.
 - There is no code lint tool setup. I've used Prettier during development.
 - Some `@ts-ignore` scattered around the code. This is only done to circumvent a faulty definition file in the `rebass` library.
+- A11y was not a major factor.
+- A lot of some minor quality improvements could be made.
