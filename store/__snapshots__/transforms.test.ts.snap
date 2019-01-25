@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Transform store reducer adds transformation 1`] = `
+Object {
+  "dictionaryId": "1",
+  "from": Array [
+    "a",
+  ],
+  "id": "1",
+  "to": "1",
+}
+`;
